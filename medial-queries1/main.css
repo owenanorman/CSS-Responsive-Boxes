@@ -1,3 +1,50 @@
 body {
   background: blanchedalmond;
 }
+* {
+  margin: 20px;
+   
+}
+ 
+ 
+
+.a {
+   
+  height: 300px;
+  border: 1px solid mediumblue;
+  width: 100%;
+  
+}
+
+.b {
+  height: 1500px;
+  border: 1px solid mediumblue;
+  width: 100%;
+}
+
+.c {
+  height: 290px;
+  border: 1px solid mediumblue;
+  width: 100%;
+}
+
+@media (min-width:1000px) {
+  .a {
+    height: 300px;
+    width: 100%;
+    border: 1px solid mediumblue;
+  }
+  .b {
+    width: 60%;
+    display: inline-block;
+    border: 1px solid mediumblue;
+    height: 1500px;
+
+  }
+  .c {
+    width: 30%;
+    display: inline-block;
+    height: 1500px;
+    border: 1px solid mediumblue;
+  }
+}
